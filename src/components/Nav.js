@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <StyledNav>
       <h1>
-        <Link to="#" id="logo">
+        <Link to="/" id="logo">
           Capture
         </Link>
       </h1>
