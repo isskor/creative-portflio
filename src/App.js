@@ -4,6 +4,8 @@ import Nav from "./components/Nav";
 import OurWork from "./pages/OurWork";
 import ContactUs from "./pages/ContactUs";
 import MovieDetail from "./pages/MovieDetail";
+import ScrollTop from "./components/ScrollTop";
+
 // global styles
 import GlobalStyle from "./components/GlobalStyle";
 // Router
@@ -32,6 +34,7 @@ function App() {
             <ContactUs />
           </Route>
         </Switch>
+        <ScrollTop />
       </AnimatePresence>
     </div>
   );

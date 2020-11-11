@@ -5,6 +5,7 @@ import ServicesSection from "../components/ServicesSection";
 // animations
 import { motion } from "framer-motion";
 import { pageAnimation } from "../animation";
+
 const AboutUs = () => {
   return (
     <motion.div
